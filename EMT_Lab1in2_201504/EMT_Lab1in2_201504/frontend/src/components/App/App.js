@@ -72,6 +72,7 @@ class App extends Component {
              .then( ()=> {
                  this.loadBooks();
         });
+        window.location.reload();
     }
 
 
@@ -102,6 +103,7 @@ class App extends Component {
             .then(()=>{
                 this.loadBooks();
             })
+        window.location.reload();
     }
     componentDidMount() {
         this.loadBooks();
